@@ -1,0 +1,145 @@
+.top-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+/* top navbar */
+.top-nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* align-items: center; */
+  background: var(--top-nav-color);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: var(--secondary-color);
+}
+
+.left-nav {
+  display: flex;
+  flex-grow: 0;
+}
+
+.logo {
+  background: url("/assets/images/logo.png") no-repeat center center/cover;
+  height: 45px;
+  width: 120px;
+}
+.deliverTo {
+  display: flex;
+  align-items: flex-end;
+}
+
+.deliver-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.search-nav {
+  display: flex;
+  flex-grow: 2;
+  justify-content: space-between;
+  align-items: center;
+  width: auto; /* auto? 100%? */
+  /* padding: 5px; */
+}
+
+.spriteGps {
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") no-repeat -71px -306px;
+  width: 17px;
+  height: 20px;
+  margin-bottom: 3px;
+}
+
+.top-section .deliver-column:nth-child(1) {
+  font-size: 12px;
+}
+.srch-left {
+  background: #f3f3f3;
+  height: 45px; /* need to change */
+  width: 45px; /* need to change */
+  flex-grow: 0;
+  height: 38px;
+}
+.srch-arrow-sprite {
+  background: url("/assets/icons/arrow-search-bar.JPG") no-repeat center center/cover;
+  width: auto;
+  height: 40px;
+  width: 40px;
+  height: 38px;
+  cursor: pointer;
+}
+
+.srch-fill input {
+  height: 38px;
+  width: 800px; /* max-width not working */
+  flex-grow: 2;
+}
+.srch-right {
+  background: rgba(254, 189, 105, 255);
+  height: 45px; /* need to change */
+  width: 45px; /* need to change */
+  flex-grow: 0;
+  height: 38px;
+}
+
+.srch-sprite {
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") no-repeat -10px -290px;
+  width: 21px;
+  height: 21px;
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-grow: 0;
+}
+.right-nav li {
+  list-style: none;
+}
+
+.right-nav .flag img {
+  width: 100%;
+  height: 35px;
+}
+.right-nav .cart img {
+  width: 100%;
+  height: 45px;
+}
+
+.right-nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+/* Bottom nav */
+.bottom-nav ul {
+  display: flex;
+  background: #232f3e;
+}
+.bottom-nav ul li {
+  list-style: none;
+}
+
+.bottom-nav a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+/* Section Main */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.ad-banner img {
+  width: 100%;
+}
