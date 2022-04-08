@@ -38,8 +38,9 @@
             </div>
           </div>
           <div class="srch-fill">
-            <input type="text" />
-            <!-- placeholder="Search.." -->
+            <form>
+              <input type="text" name="search" />
+            </form>
           </div>
           <div class="srch-right">
             <div class="srch-sprite"></div>
@@ -49,10 +50,10 @@
           <li class="flag"><img src="/assets/icons/flag.JPG" alt="flag" /></li>
           <li>
             <a
-              class="signIn"
+              class="sign-in"
               href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2FMelissa-Doug-Stuffed-Washable-Surface%2Fdp%2FB004N7NFSK%2Fref%3Dnav_ya_signin%3Fqid%3D1649321310%26s%3Dtoys-and-games-intl-ship%26sr%3D1-49&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"
             >
-              <div>Hello, Sign in</div>
+              <span>Hello, Sign in</span>
               <span>Account & Lists</span>
             </a>
           </li>
@@ -67,7 +68,6 @@
       </div>
 
       <div class="bottom-nav">
-        <!-- <div class="ham-menu"></div> -->
         <ul>
           <li class="ham-menu"><img src="./assets/icons/ham-menu.JPG" alt="" /></li>
           <li><a href="https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb">Today's Deals</a></li>
@@ -81,7 +81,32 @@
       </div>
     </section>
     <section class="main-container">
+      <!-- column flex -->
       <div class="ad-banner"><img src="./assets/images/ad-banner.JPG" alt="" /></div>
+      <section class="main-wrap">
+        <!-- row -->
+        <div class="left-container">
+          <!-- column -->
+          <div class="top-column-wrap">
+            <!-- row- pics+rate -->
+            <div class="images-wrap">
+              <!-- row -->
+              <div class="small-imgaes"><!-- column --></div>
+              <div class="big-image"></div>
+            </div>
+            <div class="description"><!-- column --></div>
+          </div>
+          <div class="bottom-column-wrap">
+            <!-- column -->
+            <div class="buy-now"></div>
+            <div class="more-details"></div>
+          </div>
+        </div>
+        <div class="right-container"><!-- column --></div>
+      </section>
+
+      <!-- <section class="right-main-sec"></section> -->
     </section>
+    <section class="carousel"></section>
   </body>
 </html>
