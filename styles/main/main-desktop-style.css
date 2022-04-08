@@ -17,5 +17,165 @@
 .main-wrap {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
+
+  padding: 30px;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
+
+.top-column-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.images-wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  max-height: 613px;
+  flex-wrap: wrap;
+  /* position: relative; */
+}
+
+.big-image {
+  /* image isnt responsive!!!! why?! */
+  display: block;
+  width: 600px;
+  height: 100%;
+  background-image: url("/assets/images/big-dubi.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /* border: 1px black solid; */
+}
+/* .small1 img,
+.small2 img,
+.small3 img,
+.small4 img,
+.small5 img,
+.small6 img,
+.small7 img {
+  width: 40px;
+} */
+
+/* .small img {
+  width: 100%;
+} */
+.images-wrap .small {
+  width: 40px;
+}
+.small {
+  width: 60px;
+  height: 40px;
+  margin: 5px;
+}
+
+#small1 {
+  background: url("/assets/images/small/small1.jpg") no-repeat center center/cover;
+}
+#small2 {
+  background: url("/assets/images/small/small2.jpg") no-repeat center center/cover;
+}
+#small3 {
+  background: url("/assets/images/small/small3.jpg") no-repeat center center/cover;
+}
+#small4 {
+  background: url("/assets/images/small/small4.jpg") no-repeat center center/cover;
+}
+#small5 {
+  background: url("/assets/images/small/small5.jpg") no-repeat center center/cover;
+}
+#small6 {
+  background: url("/assets/images/small/small6.jpg") no-repeat center center/cover;
+}
+#small7 {
+  background: url("/assets/images/small/small7.jpg") no-repeat center center/cover;
+}
+.small:hover {
+  cursor: pointer;
+  border: #ef9c27 2px solid;
+  box-shadow: 1px 1px 10px #ef9c27;
+}
+/* .small1:active ~ .big-image {
+  cursor: pointer;
+  border: 1px solid blue;
+} */
+#small1:hover ~ .big-image {
+  background: url("/assets/images/big-dubi.jpg") no-repeat center center/cover;
+}
+#small2:hover ~ .big-image {
+  background: url("/assets/images/big-girl.jpg") no-repeat center center/cover;
+}
+#small3:hover ~ .big-image {
+  background: url("/assets/images/big-blue.jpg") no-repeat center center/cover;
+}
+#small4:hover ~ .big-image {
+  background: url("/assets/images/big-boy.jpg") no-repeat center center/cover;
+}
+#small5:hover ~ .big-image {
+  background: url("/assets/images/big-girl2.jpg") no-repeat center center/cover;
+}
+#small6:hover ~ .big-image {
+  background: url("/assets/images/big-msg1.jpg") no-repeat center center/cover;
+}
+#small7:hover ~ .big-image {
+  background: url("/assets/images/big-msg2.jpg") no-repeat center center/cover;
+}
+
+/* description section inside main */
+.description-wrap {
+  display: flex;
+  padding-left: 70px;
+  max-width: 50%;
+  height: 870px;
+}
+.description-inner {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+  height: 100%;
+}
+.description-inner h1 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+/* .description-text {
+  font-size: 14px;
+} */
+.table1 {
+  width: 140px;
+}
+
+.td-line-through {
+  text-decoration: line-through;
+}
+
+.table2 {
+  width: 250px;
+}
+.table2 .span-bold {
+  font-weight: 700;
+}
+
+.about-item {
+  margin-left: 15px;
+}
+
+/* right container- but and add to cart */
+.right-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 15px;
 }

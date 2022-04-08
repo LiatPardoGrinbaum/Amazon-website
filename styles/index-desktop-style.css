@@ -7,7 +7,6 @@ body {
   font-family: var(--font-primary);
   height: 100vh;
   font-weight: 200;
-  background: rgb(180, 154, 154);
   display: flex;
   height: 100%;
   width: 100%;

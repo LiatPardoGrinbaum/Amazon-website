@@ -38,12 +38,11 @@
             </div>
           </div>
           <div class="srch-fill">
-            <form>
-              <input type="text" name="search" />
-            </form>
+            <form><input type="text" name="search" /><!-- design in css with input[type="text"]?  --></form>
           </div>
           <div class="srch-right">
             <div class="srch-sprite"></div>
+            <!-- should add instead sumbit? put it right after input text(inside form) and design it with input[type="sumbit"] -->
           </div>
         </div>
         <ul class="right-nav">
@@ -90,11 +89,79 @@
           <div class="top-column-wrap">
             <!-- row- pics+rate -->
             <div class="images-wrap">
-              <!-- row -->
-              <div class="small-imgaes"><!-- column --></div>
-              <div class="big-image"></div>
+              <!-- column -->
+              <div class="small" id="small1"></div>
+              <div class="small" id="small2"></div>
+              <div class="small" id="small3"></div>
+              <div class="small" id="small4"></div>
+              <div class="small" id="small5"></div>
+              <div class="small" id="small6"></div>
+              <div class="small" id="small7"></div>
+              <div class="big-image"><!-- <img src="./assets/images/big-dubi.jpg" /> --></div>
             </div>
-            <div class="description"><!-- column --></div>
+            <div class="description-wrap">
+              <div class="description-inner">
+                <!-- column -->
+                <h1>Melissa & Doug Burrow Bunny Rabbit Stuffed Animal (9 inches)</h1>
+                <span class="span-link"><a href="https://www.amazon.com/stores/MelissaDoug/page/4B0F33F8-CB44-4B94-AB1A-A2434A78D674?ref_=ast_bln">Visit the Melissa & Doug Store</a></span>
+                <span
+                  ><img src="/assets/icons/5stars.JPG" /> <a href="https://www.amazon.com/Melissa-Doug-Stuffed-Washable-Surface/dp/B004N7NFSK/ref=sr_1_49?qid=1649321310&s=toys-and-games-intl-ship&sr=1-49#customerReviews"> 9,898 ratings </a> |
+                  <a href="https://www.amazon.com/Melissa-Doug-Stuffed-Washable-Surface/dp/B004N7NFSK/ref=sr_1_49?qid=1649321310&s=toys-and-games-intl-ship&sr=1-49#Ask">53 answered questions</a></span
+                >
+                <hr />
+                <table class="table1">
+                  <tr>
+                    <td>List Price:</td>
+                    <td class="td-line-through">$17.09</td>
+                  </tr>
+                  <tr>
+                    <td>Price:</td>
+                    <td>$14.99</td>
+                  </tr>
+                  <tr>
+                    <td>You save:</td>
+                    <td>$2.10 (12%)</td>
+                  </tr>
+                </table>
+                <span>No Import Fees Deposit & $21.03 Shipping to Israel</span>
+                <span><a href="#">Details </a></span>
+                <!-- tooltip? -->
+                <table class="table2">
+                  <tbody>
+                    <tr>
+                      <td><span class="span-bold">Toy figure type</span></td>
+                      <td><span>Stuffed Toy</span></td>
+                    </tr>
+                    <tr>
+                      <td><span class="span-bold">Brand</span></td>
+                      <td><span>Melissa &amp; Doug</span></td>
+                    </tr>
+                    <tr>
+                      <td><span class="span-bold">Animal theme</span></td>
+                      <td><span>Bunny</span></td>
+                    </tr>
+                    <tr>
+                      <td><span class="span-bold">Item Dimensions LxWxH</span></td>
+                      <td><span>10 x 6 x 9 inches</span></td>
+                    </tr>
+                    <tr>
+                      <td><span class="span-bold">Age Range (Description)</span></td>
+                      <td><span>All ages</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h1>About this item</h1>
+                <ul class="about-item">
+                  <li>CUDDLY BUNNY RABBIT STUFFED ANIMAL: The Melissa & Doug Burrow Bunny Rabbit Stuffed Animal features long floppy ears with extra-soft plush fur and realistic-looking features.</li>
+                  <li>HANDCRAFTED WITH CARE: This plush bunny stuffed animal toy has been crafted with superior materials. The soft polyester fabric makes it both huggable and durable.</li>
+                  <li>MULTIPLE PLAYTIME OPPORTUNITIES: This Melissa & Doug stuffed rabbit toy provides children with many entertainment options. Kids can snuggle with their fuzzy bunny during story time, engage in play, and even read a story to their furry friend.</li>
+                  <li>GIFT FOR ALL AGES: This stuffed animal makes a delightful and cuddly gift for all ages. Add the Melissa & Doug Tiger Stuffed Animal to round out the hands-on play experience and give kids another engaging option for screen-free fun.</li>
+                  <li>“THE GOLD STANDARD IN CHILDHOOD PLAY”: For more than 30 years, Melissa & Doug has created beautifully designed imagination- and creativity-sparking products that NBC News called “the gold standard in early childhood play.”</li>
+                  <li>100% HAPPINESS GUARANTEE: We design every toy to the highest quality standards, and to nurture minds and hearts. If your child is not inspired, give us a call and we’ll make it right. Our phone number is on every product!</li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div class="bottom-column-wrap">
             <!-- column -->
@@ -102,7 +169,12 @@
             <div class="more-details"></div>
           </div>
         </div>
-        <div class="right-container"><!-- column --></div>
+        <div class="right-container">
+          <!-- column -->
+          <div class="buy-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nihil id reiciendis, numquam nostrum in vitae veritatis maiores est, maxime officia quos. Consequatur mollitia, nostrum ea vel enim animi ullam?</p>
+          </div>
+        </div>
       </section>
 
       <!-- <section class="right-main-sec"></section> -->
