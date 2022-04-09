@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/font-styles.css" />
     <link rel="stylesheet" href="./styles/colors-style.css" />
-    <link rel="stylesheet" media="(min-width:500px)" href="./styles/index-desktop-style.css" />
-    <link rel="stylesheet" media="(max-width:499px)" href="./styles/index-mobile-style.css" />
-    <link rel="stylesheet" media="(min-width:500px)" href="/styles/navbar/navbar-desktop-style.css" />
-    <link rel="stylesheet" media="(max-width:499px)" href="./styles/navbar/navbar-mobile-style.css" />
-    <link rel="stylesheet" media="(min-width:500px)" href="/styles/main/main-desktop-style.css" />
-    <link rel="stylesheet" media="(max-width:499px)" href="./styles/main/main-mobile-style.css" />
+    <link rel="stylesheet" media="(min-width:1000px)" href="./styles/index-desktop-style.css" />
+    <link rel="stylesheet" media="(max-width:999px)" href="./styles/index-mobile-style.css" />
+    <link rel="stylesheet" media="(min-width:1000px)" href="/styles/navbar/navbar-desktop-style.css" />
+    <link rel="stylesheet" media="(max-width:999px)" href="./styles/navbar/navbar-mobile-style.css" />
+    <link rel="stylesheet" media="(min-width:1000px)" href="/styles/main/main-desktop-style.css" />
+    <link rel="stylesheet" media="(max-width:999px)" href="./styles/main/main-mobile-style.css" />
 
     <title>Amazon.com</title>
   </head>
   <body>
-    <section class="top-section">
+     <!-- DESKTOP NAVBAR -->
+    <section class="top-section-desktop">
       <div class="top-nav">
         <div class="left-nav">
           <div class="logo"></div>
@@ -79,6 +80,63 @@
         </ul>
       </div>
     </section>
+
+      <!-- MOBILE NAVBAR -->
+    <section class="top-section-mobile">
+
+      <div class="top-nav-wrap">
+        <div class="top-nav1">
+
+          <div class="left-nav">
+            <div class="mobile-menu-icon"><img src="/assets/icons/mobie-menu.JPG"></div>
+            <div class="logo"></div>
+          </div>
+
+          <div class="right-nav">
+            <div class="sign-in"><a href="#">Sign in</a></div>
+            <div class="man"><img src="/assets/icons/man.JPG" alt="login" /></div>
+            <div class="cart"><img src="/assets/icons/cart-mobile.JPG" alt="cart" /></div>
+          </div>
+
+        </div>
+
+        <div class="top-nav-search">
+          <div class="search-wrap">
+            <div class="srch-left">
+              <div class="srch-arrow-sprite">
+                <!-- select bar or drop-down menu?! -->
+              </div>
+            </div>
+            <div class="srch-fill">
+              <form><input type="text" name="search" /><!-- design in css with input[type="text"]?  --></form>
+            </div>
+            <div class="srch-right">
+              <div class="srch-sprite"></div>
+              <!-- should add instead sumbit? put it right after input text(inside form) and design it with input[type="sumbit"] -->
+            </div>
+          </div>
+        </div>
+
+        <div class="topnav2>">
+          <div class="deliverTo">
+            <div class="spriteGps"></div>
+            <div class="deliverto">Deliver to Israel</div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+    </section>
+
+<!-- MOBILE MAIN -->
+
+<div class="header-container">
+ 
+</div>
+
+
+<!-- DESKTOP MAIN -->
     <section class="main-container">
       <!-- column flex -->
       <div class="ad-banner"><img src="./assets/images/ad-banner.JPG" alt="" /></div>

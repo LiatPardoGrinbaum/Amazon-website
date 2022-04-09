@@ -1,3 +1,7 @@
+.top-section-mobile {
+  display: none;
+}
+
 .top-section {
   display: flex;
   flex-direction: column;
