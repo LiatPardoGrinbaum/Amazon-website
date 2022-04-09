@@ -1,6 +1,8 @@
 /* Section Main */
-
-.main-container {
+.main-container-mobile {
+  display: none;
+}
+.main-container-desktop {
   display: flex;
   flex-direction: column;
   width: 100%;
