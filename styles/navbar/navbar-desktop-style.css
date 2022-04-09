@@ -179,3 +179,18 @@
   width: 50px;
   margin: 5px 0px 0px 0px;
 }
+
+/* LINKS HOVER */
+.logo:hover,
+.deliverTo:hover,
+.flag:hover,
+.sign-in:hover,
+.returns:hover {
+  border: white 1px solid;
+  border-radius: 2px;
+}
+
+.bottom-nav ul li :hover {
+  border: white 1px solid;
+  border-radius: 2px;
+}

@@ -2,4 +2,20 @@
   --primary-color: #0f1111;
   --secondary-color: #fff;
   --top-nav-color: #131921;
+  --red-color: #b12704;
+  --link-color: rgb(0, 113, 133);
+}
+.link-style {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.link-style:hover {
+  color: var(--red-color);
+}
+.red-color {
+  color: var(--red-color);
+}
+
+.grey-color {
+  color: var(--font-color-secondary);
 }

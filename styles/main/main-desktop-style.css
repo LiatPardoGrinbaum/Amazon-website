@@ -16,7 +16,7 @@
 
 .main-wrap {
   display: flex;
-  width: 100%;
+  max-width: 100%;
   justify-content: space-between;
 
   padding: 30px;
@@ -24,7 +24,7 @@
 .left-container {
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
+  /* width: 70%; */
 }
 
 .top-column-wrap {
@@ -35,16 +35,21 @@
 .images-wrap {
   display: flex;
   flex-direction: column;
-  max-width: 30%;
-  max-height: 613px;
+  width: 75%;
+  max-height: 620px;
+  /* max-width: 613px; */
+
   flex-wrap: wrap;
-  /* position: relative; */
+
+  /* overflow: hidden; */
 }
 
 .big-image {
   /* image isnt responsive!!!! why?! */
-  display: block;
-  width: 600px;
+  /* display: block; */
+  width: 100%;
+
+  /* max-width: 600px; */
   height: 100%;
   background-image: url("/assets/images/big-dubi.jpg");
   background-repeat: no-repeat;
@@ -52,19 +57,7 @@
   background-size: contain;
   /* border: 1px black solid; */
 }
-/* .small1 img,
-.small2 img,
-.small3 img,
-.small4 img,
-.small5 img,
-.small6 img,
-.small7 img {
-  width: 40px;
-} */
 
-/* .small img {
-  width: 100%;
-} */
 .images-wrap .small {
   width: 40px;
 }
@@ -105,25 +98,25 @@
   border: 1px solid blue;
 } */
 #small1:hover ~ .big-image {
-  background: url("/assets/images/big-dubi.jpg") no-repeat center center/cover;
+  background: url("/assets/images/big-dubi.jpg") no-repeat center center/contain;
 }
 #small2:hover ~ .big-image {
-  background: url("/assets/images/big-girl.jpg") no-repeat center center/cover;
+  background: url("/assets/images/big-girl.jpg") no-repeat center center/contain;
 }
 #small3:hover ~ .big-image {
-  background: url("/assets/images/big-blue.jpg") no-repeat center center/cover;
+  background: url("/assets/images/big-blue.jpg") no-repeat center center/contain;
 }
 #small4:hover ~ .big-image {
-  background: url("/assets/images/big-boy.jpg") no-repeat center center/cover;
+  background: url("/assets/images/big-boy.jpg") no-repeat center center/contain;
 }
 #small5:hover ~ .big-image {
-  background: url("/assets/images/big-girl2.jpg") no-repeat center center/cover;
+  background: url("/assets/images/big-girl2.jpg") no-repeat center center/contain;
 }
 #small6:hover ~ .big-image {
-  background: url("/assets/images/big-msg1.jpg") no-repeat center center/cover;
+  background: url("/assets/images/big-msg1.jpg") no-repeat center center/contain;
 }
 #small7:hover ~ .big-image {
-  background: url("/assets/images/big-msg2.jpg") no-repeat center center/cover;
+  background: url("/assets/images/big-msg2.jpg") no-repeat center center/contain;
 }
 
 /* description section inside main */
@@ -137,12 +130,15 @@
   display: flex;
   flex-direction: column;
   font-size: 14px;
+  font-weight: 400;
   line-height: 20px;
   width: 100%;
   height: 100%;
 }
+.price-big {
+  font-size: 18px;
+}
 .description-inner h1 {
-  font-weight: 400;
   font-size: 24px;
 }
 
@@ -168,14 +164,173 @@
   margin-left: 15px;
 }
 
-/* right container- but and add to cart */
+/* right container- buy and add to cart */
+
 .right-container {
   display: flex;
   flex-direction: column;
-  width: 30%;
-  height: auto;
+  width: 320px;
+  height: 100%;
   border: 1px solid rgb(220, 220, 220);
   border-radius: 10px;
   margin-left: 20px;
   padding: 15px;
+  font-weight: 400;
+}
+.right-con-inner {
+  display: flex;
+  font-weight: 400;
+  flex-direction: column;
+}
+
+.buttons-wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.btn {
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  padding: 7px;
+  /* box-shadow: -5px 5px 25px rgb(202, 202, 202); */
+  font-size: 12px;
+  font-weight: 400;
+}
+.btn1 {
+  background: #ffd814;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border: solid 1px #f3ca01;
+}
+.btn2 {
+  background: #ffa826;
+  cursor: pointer;
+  border: solid 1px #e68e0b;
+}
+.btn1:hover {
+  background: #e0bb03;
+  border: solid 1px #e0bb03;
+}
+.btn2:hover {
+  background: #ff8800;
+  border: solid 1px #ff8800;
+}
+
+.lock {
+  margin: 10px 5px 10px 0px;
+}
+.lock span {
+  margin-left: 10px;
+}
+.sold-line2 {
+  margin-bottom: 10px;
+}
+.ships1 {
+  margin-right: 10px;
+  font-size: 12px;
+}
+.sold1 {
+  margin-right: 28px;
+  font-size: 12px;
+}
+.ships2 {
+  font-size: 12px;
+}
+.sold2 {
+  font-size: 12px;
+}
+
+/* checkboxes containers */
+.h1-span {
+  margin-top: 10px;
+  /* font-size: 14px; */
+  font-weight: 700;
+}
+.accessory1 {
+  display: flex;
+  margin: 10px 0px;
+  /* font-size: 14px; */
+}
+.accessory2 {
+  display: flex;
+  margin: 10px 0px;
+  /* font-size: 14px; */
+}
+.span-price {
+  margin-left: 30px;
+  color: #b12704;
+}
+
+.btn3 {
+  font-size: 12px;
+  text-align: left;
+  padding: 7px;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* left bottom container */
+
+.bottom-column-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+  font-weight: 400;
+}
+
+.bottom-column-wrap h2 {
+  font-size: 16px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: rgb(204, 102, 0);
+  margin-top: 10px;
+}
+
+.other-products-wrap {
+  display: flex;
+  margin-top: 40px;
+  width: 600px;
+}
+.other-products-wrap ul {
+  display: flex;
+  width: 550px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.totalprice {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-add-all {
+  width: 100%;
+  height: 20px;
+  border-radius: 7px;
+  text-align: center;
+  padding: 2px 7px;
+}
+
+.other-products-wrap ul li {
+  list-style: none;
+}
+.details-products-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.mark-wrap {
+  display: flex;
+}
+.sprite-mark {
+  background: url("https://m.media-amazon.com/images/S/sash/3-fm1Jbg4IHlyhq.png") no-repeat -412px -29px;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
 }
