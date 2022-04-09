@@ -104,22 +104,22 @@
 
 /* srch-bar- same prop as in desktop */
 .srch-left {
-  background: #f3f3f3;
-
-  width: 50px; /* need to change */
   flex-grow: 0;
-  height: 39px;
+  height: 38px;
   border-radius: 3px 0px 0px 3px;
   display: flex;
   justify-content: flex-end;
 }
 .srch-arrow-sprite {
-  background: url("/assets/icons/arrow-search-bar.JPG") no-repeat center center/cover;
+  /* background: url("/assets/icons/arrow-search-bar.JPG") no-repeat center center/cover; */
   width: auto;
   height: 40px;
   width: 40px;
   height: 38px;
   cursor: pointer;
+  border-radius: 3px 0px 0px 3px;
+  background: #f3f3f3;
+  font-size: 12px;
 }
 
 .srch-fill {
