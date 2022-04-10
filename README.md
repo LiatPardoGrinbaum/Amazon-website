@@ -2,7 +2,7 @@
 
 copy of this product page in amazon: https://www.amazon.com/Melissa-Doug-Stuffed-Washable-Surface/dp/B004N7NFSK/ref=sr_1_1?crid=AFXGJZ1AOOVT&keywords=melissa+and+doug+bunny&qid=1649507567&s=toys-and-games-intl-ship&sprefix=melissa+and+doug+b%2Ctoys-and-games-intl-ship%2C293&sr=1-1
 
-pay attention- the page might change or the same product might be replaced with other, depend on Amazon company.
+pay attention- the page might be changed or the same product might be replaced with other, depend on Amazon company.
 
 I built this page using css+html. I made different css file for general\navbar\main for each mobile and desktop. I used flex property for all the containers.
 
