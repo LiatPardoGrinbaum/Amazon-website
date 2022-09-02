@@ -1,10 +1,11 @@
 # Amazon-website
 
-My very first project. Pure html + css. A copy of an amazon product.  
-[Enter](https://nimble-kitten-589708.netlify.app/)
+My very first project. Pure html + css. A copy of an amazon product.
 
-copy of this product page in amazon:
-https://www.amazon.com/Melissa-Doug-Stuffed-Washable-Surface/dp/B004N7NFSK/ref=sr_1_1?crid=AFXGJZ1AOOVT&keywords=melissa+and+doug+bunny&qid=1649507567&s=toys-and-games-intl-ship&sprefix=melissa+and+doug+b%2Ctoys-and-games-intl-ship%2C293&sr=1-1
+[Enter my Amazon Product Page](https://nimble-kitten-589708.netlify.app/)
+
+The original product page in amazon:  
+[Original Product Page](https://www.amazon.com/Melissa-Doug-Stuffed-Washable-Surface/dp/B004N7NFSK/ref=sr_1_1?crid=AFXGJZ1AOOVT&keywords=melissa+and+doug+bunny&qid=1649507567&s=toys-and-games-intl-ship&sprefix=melissa+and+doug+b%2Ctoys-and-games-intl-ship%2C293&sr=1-1)
 
 I built this page using css+html. I made different css file for general\navbar\main for each mobile and desktop. I used
 flex property for all the containers.
